@@ -2,7 +2,7 @@
 - database - samples photo person (any photo people who will be recognition.)
 - encoding_face - samples photo face who will be recognition. (only face for the best recognition)
 - DB_Rocognition - this directory, will be create files of recognition faces
-- deploy.prototxt.txt
+- deploy.prototxt.txt - neural network structure
 - res10_300x300_ssd_iter_140000.caffemodel
 - encodings.pickle - will be create when start file Face Encoding
 - func_face.py - two function for detection and recognition faces.
