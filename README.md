@@ -1,12 +1,12 @@
 # Face-Recognition
-For this project need directories and files:
-database - samples photo person (any photo people who will be recognition.)
-encoding_face - samples photo face who will be recognition. (only face for the best recognition)
-DB_Rocognition - this directory, will be create files of recognition faces
-deploy.prototxt.txt
-res10_300x300_ssd_iter_140000.caffemodel
-encodings.pickle - will be create when start file Face Encoding
-func_face.py - two function for detection and recognition faces.
+##For this project need directories and files:
+-database - samples photo person (any photo people who will be recognition.)
+-encoding_face - samples photo face who will be recognition. (only face for the best recognition)
+-DB_Rocognition - this directory, will be create files of recognition faces
+-deploy.prototxt.txt
+-res10_300x300_ssd_iter_140000.caffemodel
+-encodings.pickle - will be create when start file Face Encoding
+-func_face.py - two function for detection and recognition faces.
 
 1. Face prepare - this file prepare face pictures from the database directory and save it to the encoding_face directory.
 2. Face Encoding -  this file to make database for working a siamese neural networks (make file encodings.pickle ) - encoding samples faces.
