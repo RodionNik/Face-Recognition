@@ -1,4 +1,4 @@
-## It's lil example for jupyter notebook 
+## It's little example for jupyter notebook 
 ## For this project need directories and files:
 - database - samples photo person (any photo people who will be recognition.)
 - encoding_face - samples photo face who will be recognition. (only face for the best recognition)
